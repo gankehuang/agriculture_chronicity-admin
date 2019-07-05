@@ -18,8 +18,8 @@
 
 ## 安装步骤 ##
 ```
-git clone https://github.com/gankehuang/vue-admin.git      // 把模板下载到本地
-cd vue-admin    // 进入模板目录
+git clone https://github.com/gankehuang/agriculture_chronicity-admin.git      // 把模板下载到本地
+cd agriculture_chronicity-admin    // 进入模板目录
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
 
 // 开启服务器，浏览器访问 http://localhost:8080
@@ -100,4 +100,4 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 
 ## License
 
-[MIT](https://github.com/gankehuang/vue-admin)
+[MIT](https://github.com/gankehuang/agriculture_chronicity-admin)
