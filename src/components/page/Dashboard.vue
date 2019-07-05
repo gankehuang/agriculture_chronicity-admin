@@ -72,7 +72,7 @@
                       :action="uploadUrl"
                       :limit="1"
                       :on-preview="handlePreview"
-                      :on-remove="handleRemove"
+                      :on-remove="handleRemove1"
                       :file-list="fileList"
                       :on-success="uploadSuccess"
                       list-type="picture">
@@ -194,7 +194,11 @@
         },
         methods: {
             handleRemove(file, fileList) {
-                console.log(file, fileList);
+                //console.log(file, fileList);
+                this.form.Picture = '';
+            },
+            handleRemove1(file, fileList) {
+                this.form.Content = '';
             },
             handlePreview(file) {
                 console.log(file);
